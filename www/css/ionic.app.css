@@ -9081,3 +9081,11 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+img {
+  height: 400px;
+  width: 200px; }
+
+.item-divider {
+  background-color: #12788f;
+  color: #b3cfee; }
