@@ -1,1 +1,42 @@
-<ion-view view-title="Tasks"></ion-view>
+<ion-view view-title="Tasks">
+	<ion-content>
+    	<ion-list>
+			<div class="container">
+       <div class="list">
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Choose your task:
+            </div>
+            <select>
+              <option selected>Read</option>
+              <option>Code</option>
+              <option>Write</option>
+            </select>
+          </label>
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Type
+            </div>
+            <select>
+              <option selected value="1">Tomato</option>
+              <option value="2">Hourglass</option>
+              <option value="3">Flip-Down</option>
+              <option value="4">7-segment</option>
+            </select>
+          </label>
+        <button class="">Create</button>
+        <input class="timeInput minute"></input>minutes<input class="timeInput second">seconds</input>
+      </div>
+    </div>
+      
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="task in tasks" type="item-text-wrap" href="#/tab/tasks/{{task.id}}">
+        <h2>{{task.name}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(task)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
