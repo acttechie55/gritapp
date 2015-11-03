@@ -20,12 +20,13 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-@import "www/views/home/home.scss";
-@import "www/views/lists/lists.scss";
-@import "www/views/settings/settings.scss";
-@import "www/views/tasks/tasks.scss";
-@import "www/views/list-detail/detail.scss";
-@import "www/views/task-detail/task-detail.scss";
+@import "home";
+@import "lists";
+@import "settings";
+@import "tasks";
+@import "list-detail";
+@import "task-detail";
+
 img{
 	height:400px;
 	width:200px;
