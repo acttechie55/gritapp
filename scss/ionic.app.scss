@@ -20,12 +20,12 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-@import "www/views/home/home.scss";
-@import "www/views/lists/lists.scss";
-@import "www/views/settings/settings.scss";
+@import "www/views/home/home";
+@import "www/views/lists/lists";
+@import "www/views/settings/settings";
 @import "www/views/tasks/tasks.scss";
-@import "www/views/list-detail/detail.scss";
-@import "www/views/task-detail/task-detail.scss";
+@import "www/views/lists/list-detail/list-detail.scss";
+@import "www/views/tasks/task-detail/task-detail.scss";
 img{
 	height:400px;
 	width:200px;
@@ -34,4 +34,5 @@ img{
 	background-color: #12788f;
 	color:#b3cfee;
 }
+
 

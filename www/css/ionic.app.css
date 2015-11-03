@@ -9082,6 +9082,15 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+.bg-home {
+  background-color: deepskyblue; }
+
+.bg-lists {
+  background-color: khaki; }
+
+bg-settings {
+  background-color: yellow; }
+
 img {
   height: 400px;
   width: 200px; }
